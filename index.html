@@ -11,11 +11,13 @@
 <body>
     
     <div class="game__bord">
-        <img src="./imagens/nuvens.png" alt="nuvens" class="nuvens">
-        <img src="./imagens/tunel.webp" alt="tunel Mario-Bord" class="tunel">
-        <img src="./imagens/mario.gif" alt="Mario Correndo" class="mario">
-        <button id="botao">Restart</button>
-        <p id="distancia">Distancia: 0</p>
+        <div class="score">Score: <span id="score">0</span></div>
+        <div class="lives">Lives: <span id="lives">3</span></div>
+        <div class="game__container">
+            <img src="./imagens/nuvens.png" alt="nuvens" class="nuvens">
+            <img src="./imagens/tunel.webp" alt="tunel Mario-Bord" class="tunel">
+            <img src="./imagens/mario.gif" alt="Mario Correndo" class="mario">
+        </div>
     </div>
     
     <script src="./js/script.js" defer></script>
